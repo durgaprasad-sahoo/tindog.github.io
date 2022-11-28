@@ -1,0 +1,148 @@
+body {
+  font-family: Montserrat;
+  text-align: center;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat-Bold";
+}
+p {
+  color: #8f8f8f;
+}
+.big-heading {
+  font-family: "Montserrat-Black";
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+.section-heading {
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+/* Containers */
+.container-fluid {
+  padding: 7% 15%;
+  /* 7% top and bottom 15% left and right; */
+}
+
+/* Sections */
+.colored-section {
+  background-color: #fe3c72;
+  color: #fff;
+}
+.white-section {
+  background-color: #fff;
+}
+/* Navigation bar */
+.navbar {
+  padding: 0 0 5rem;
+}
+.navbar-brand {
+  font-family: Ubuntu;
+  font-size: 2rem;
+  font-weight: bold;
+}
+.nav-item {
+  padding: 0 20px;
+}
+.nav-link {
+  font-family: Montserrat-Light;
+  font-size: 1.3rem;
+}
+
+/* Title Section */
+#title .container-fluid {
+  padding: 2% 15% 4%;
+  text-align: left;
+}
+
+/* Download Button */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Image */
+.title-img {
+  width: 18%;
+  transform: rotate(25deg);
+  /* top: 200px;
+    right: 300px; */
+  position: absolute;
+  /* left: 60%; */
+  right: 23%;
+}
+
+@media (max-width: 1000px) {
+  #title {
+    text-align: center;
+  }
+  .title-img {
+    position: static;
+    transform: rotate(0);
+    width: 50%;
+  }
+}
+
+/* Feature Section */
+#features {
+  position: relative;
+  /* z-index: 1; */
+}
+.feature-title {
+  font-size: 1.5rem;
+}
+
+.feature-box {
+  padding: 5%;
+}
+.icon {
+  margin-bottom: 2rem;
+  color: #ef8172;
+}
+.icon:hover {
+  color: #fe3c72;
+}
+
+/* Testimonial Section */
+#testimonials {
+  background-color: #ef8172;
+}
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.testimonial-img {
+  border-radius: 100%;
+  width: 10%;
+  margin: 20px;
+}
+/* Press */
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+.press-logo {
+  width: 12%;
+  margin: 20px 20px 50px;
+}
+/* Pricing Section*/
+#pricing {
+  padding: 100px;
+}
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/* Call to action Section */
+
+/* Footer Section*/
+.social {
+  margin: 20px 10px;
+}
